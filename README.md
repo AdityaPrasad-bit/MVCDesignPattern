@@ -10,6 +10,9 @@ MVC is a software development pattern made up of three main objects:
 
 3:The Controller mediates between the view and the model via the delegation pattern. In an ideal scenario, the controller entity won’t know the concrete view it’s dealing with. Instead, it will communicate with an abstraction via a protocol. A classic example is the way a UITableView communicates with its data source via the UITableViewDataSource protocol.
 
+![MVC](https://user-images.githubusercontent.com/85185631/156926749-9637a145-3333-4511-a3a5-986813659be3.png)
+
+
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2021-12-19 at 17 26 48](https://user-images.githubusercontent.com/85185631/146964037-da90456c-6471-4af0-a011-1ce94978e946.png)
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2021-12-19 at 17 26 54](https://user-images.githubusercontent.com/85185631/146964299-30ef918a-1507-4d97-8975-ba9d35e2161e.png)
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2021-12-19 at 17 27 07](https://user-images.githubusercontent.com/85185631/146964350-6e4e8dd2-e581-40a9-9c81-c720f0441001.png)
